@@ -48,5 +48,11 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php
+if ( is_home() ) :
+    get_sidebar('home');
+else :
+    get_sidebar();
+endif;
+?>
 <?php get_footer(); ?>
