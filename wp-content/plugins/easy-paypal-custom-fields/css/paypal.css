@@ -1,0 +1,151 @@
+#rps-inside {
+	padding: 6px 0;
+}
+
+#poststuff .inside #rps-inside p {
+	margin-bottom: 12px;
+	clear: both;
+	max-width: 50em;
+}
+
+#poststuff .inside #rps-inside p span {
+	display: block;
+	float: left;
+	width: 17em;
+	font-weight: bold;
+	padding: 0 5px 20px 0;
+}
+
+#poststuff .inside #rps-inside p span.options {
+	font-weight: normal;
+}
+
+#rps-inside input[type='text'] {
+	width: 300px;
+	margin: 0;
+}
+
+#rps-inside textarea {
+	width: 300px;
+	height: 100px;
+	margin: 0 0 10px;
+	font-size: 12px;
+}
+
+input[type='email'], input[type='url'] {
+	border: 1px solid rgb( 223, 223, 223 );
+	margin: 0;
+	padding: 3px;
+	width: 294px;
+	line-height: 15px;
+	-webkit-border-radius: 4px;
+		 -moz-border-radius: 4px;
+					border-radius: 4px;
+}
+
+.clear { clear: both; }
+.hide{ display: none; }
+
+#poststuff .inside #rps-inside p span#rps-shortcode {
+	display: block;
+	float: none;
+	padding: 10px 0 10px 20px;
+	font-size: 120%;
+}
+
+#rps-paypal-button-light {
+	margin-bottom: 20px;
+	min-width: 90px;
+	padding: 5px 10px;
+	line-height: 13px !important;
+	font-size: 12px !important;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	color: #555;
+	border: 1px solid #c0c0c0;
+	border: 1px solid rgba( 200, 200, 200, 0.7 );
+	background: #fafafa;
+	background: -webkit-gradient( linear, left top, left bottom, from( rgb( 255, 255, 255 ) ), to( rgb( 230, 230, 230 ) ) );
+	background: -moz-linear-gradient( top, rgb( 255, 255, 255 ), rgb( 230, 230, 230 ) );
+	background: linear-gradient( left top, rgb( 255, 255, 255 ), rgb( 230, 230, 230 ) );
+	-webkit-border-radius: 12px;
+		 -moz-border-radius: 12px;
+					border-radius: 12px;
+	-webkit-transition: none;
+		 -moz-transition: none;
+			 -o-transition: none;
+					transition: none;
+	-webkit-box-shadow: 0 0 3px rgba( 100, 100, 100, 0.3 );
+		 -moz-box-shadow: 0 0 5px rgba( 100, 100, 100, 0.3 );
+	 				box-shadow: 0 0 5px rgba( 100, 100, 100, 0.3 );
+	-webkit-background-clip: padding-box;	
+}
+
+#rps-paypal-button-light:hover { 
+	cursor: pointer;
+	border-color: #888;
+	border-color: rgba( 150, 150, 150, 0.6 );
+	color: #222;
+	background: #eee;
+	background: -webkit-gradient( linear, left top, left bottom, from( rgb( 255, 255, 255 ) ), to( rgb( 240, 240, 240 ) ) );
+	background: -moz-linear-gradient( top, rgb( 255, 255, 255 ), rgb( 240, 240, 240 ) );
+	background: linear-gradient( left top, rgb( 255, 255, 255 ), rgb( 240, 240, 240 ) );
+}
+
+#rps-paypal-button-light:active {
+	cursor: default;
+	margin-top: 1px;
+	border-color: #555;
+	color: #444;
+}
+
+
+#rps-paypal-button-dark {
+	margin-bottom: 20px;
+	min-width: 90px;
+	padding: 5px 10px;
+	line-height: 13px !important;
+	font-size: 12px !important;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	color: #eee !important;
+	border: 1px solid #444;
+	background: #222;
+	background: -webkit-gradient( linear, left top, left bottom, from( rgb( 0, 0, 0 ) ), to( rgb( 100, 100, 100 ) ) );
+	background: -moz-linear-gradient( top, rgb( 0, 0, 0 ), rgb( 100, 100, 100 ) );
+	background: linear-gradient( left top, rgb( 0, 0, 0 ), rgb( 100, 100, 100 ) );
+	-webkit-border-radius: 12px;
+		 -moz-border-radius: 12px;
+					border-radius: 12px;
+	-webkit-transition: none;
+		 -moz-transition: none;
+			 -o-transition: none;
+					transition: none;
+	-webkit-box-shadow: 0 0 3px rgba( 220, 220, 220, 0.5 );
+		 -moz-box-shadow: 0 0 3px rgba( 220, 220, 220, 0.5 );
+		 			box-shadow: 0 0 3px rgba( 220, 220, 220, 0.5 );
+	-webkit-background-clip: padding-box;	
+}
+
+#rps-paypal-button-dark:hover { 
+	cursor: pointer;
+	border-color: #777;
+	background: #333;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb( 0, 0, 0 )), to(rgb( 60, 60, 60 )));
+	background: -moz-linear-gradient(top, rgb( 50, 50, 50 ), rgb( 0, 0, 0 ));
+	background: linear-gradient(left top, rgb( 50, 50, 50 ), rgb( 0, 0, 0 ));
+}
+
+#rps-paypal-button-dark:active {
+	cursor: default;
+	margin-top: 1px;
+	/* padding: 0.5em 0.9em; */
+	border-color: #000;
+	color: #fff;
+}
+
+
+#rps-pp-img {
+	padding: 0 0 0 !important;
+	margin: 0 0 10px !important;
+	line-height: 13px !important;
+}

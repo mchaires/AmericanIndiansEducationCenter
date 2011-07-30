@@ -3039,3 +3039,25 @@ a:hover {
 #footer a {
 	color: #3185EB;
 }
+
+#constitution-container div div {
+  width: 45%; display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+}
+
+#constitution-container div strong {
+  font-size: 120%;
+}
+
+.constitution-type { font-weight: bold; }
+#constitution-container .first { padding-right: 10px; }
+.constitution-text.first { border-right: black solid 1px; }
+
+#constitution-container div div:nth-child(4),
+#constitution-container div div:nth-child(5) {
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+#constitution-container div strong { display: block; }
