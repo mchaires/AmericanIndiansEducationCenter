@@ -22,6 +22,7 @@ caption, th, td {
 body {
 	direction:rtl;
 	unicode-bidi:embed;
+	background: #083D9D;
 }
 
 /* Showcase */
