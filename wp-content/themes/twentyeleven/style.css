@@ -34,6 +34,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 :focus {/* remember to define focus styles! */
 	outline: 0;
 }
+a
+{
+    color:orange;
+}
 body {
 	background: #fff;
 	line-height: 1;
@@ -315,7 +319,7 @@ body {
 
 body, input, textarea {
 	color: #373737;
-	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 15px Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	line-height: 1.625;
 }
@@ -378,7 +382,7 @@ cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	font-family: Georgia, "Bitstream Charter", serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-style: italic;
 	font-weight: normal;
 	margin: 0 3em;
@@ -388,7 +392,7 @@ blockquote em, blockquote i, blockquote cite {
 }
 blockquote cite {
 	color: #FFF;
-	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 12px Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
@@ -440,7 +444,7 @@ textarea {
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	border: 1px solid #ddd;
-	color: #888;
+	color: #fff;
 }
 input[type=text]:focus,
 textarea:focus {
@@ -538,13 +542,6 @@ a:hover {
 -------------------------------------------------------------- */
 
 #access {
-	background: #222; /* Show a solid color for older browsers */
-	background: -moz-linear-gradient(#252525, #0a0a0a);
-	background: -o-linear-gradient(#252525, #0a0a0a);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
-	background: -webkit-linear-gradient(#252525, #0a0a0a);
-	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	clear: both;
 	display: block;
@@ -565,7 +562,7 @@ a:hover {
 #access a {
 	color: #eee;
 	display: block;
-	line-height: 3.333em;
+	/*line-height: 3.333em;*/
 	padding: 0 1.2125em;
 	text-decoration: none;
 }
@@ -650,7 +647,7 @@ a:hover {
 	display: none;
 }
 #branding .only-search #searchform {
-	top: 5px;
+	top: 14px;
 	z-index: 1;
 }
 #branding .only-search #s {
@@ -678,10 +675,6 @@ a:hover {
 /* =Content
 ----------------------------------------------- */
 
-#main {
-	clear: both;
-	padding: 1.625em 0 0;
-}
 .page-title {
 	color: #FFF;
 	font-size: 10px;
@@ -720,11 +713,9 @@ a:hover {
 .entry-title {
 	clear: both;
 	color: #222;
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: bold;
 	line-height: 1.5em;
-	padding-bottom: .3em;
-	padding-top: 15px;
 }
 .entry-title,
 .entry-title a {
@@ -756,7 +747,7 @@ a:hover {
 .entry-content h2,
 .comment-content h1,
 .comment-content h2 {
-	color: #000;
+	color: #FFF;
 	font-weight: bold;
 	margin: 0 0 .8125em;
 }
@@ -889,7 +880,7 @@ p img,
 .wp-caption .wp-caption-text,
 .gallery-caption {
 	color: #FFF;
-	font-family: Georgia, serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 .wp-caption .wp-caption-text {
@@ -1076,7 +1067,7 @@ article.format-status .entry-content {
 	padding: 3.5em 0 0;
 }
 .singular .entry-title {
-	color: #000;
+	color: #FFF;
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
@@ -2220,7 +2211,7 @@ p.comment-form-comment {
 	text-align: center;
 }
 #site-generator a {
-	color: #555;
+	color: orange;
 	font-weight: bold;
 }
 #site-generator .sep {
@@ -2682,7 +2673,7 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 h1 {
@@ -2753,7 +2744,7 @@ a:hover {
 #logo p {
 	margin: 0;
 	padding: 0px 0 0 0px;
-	font: normal 20px Georgia, "Times New Roman", Times, serif;
+	font: normal 20px Arial, Helvetica, sans-serif;
 	font-style: italic;
 	color: #FFFFFF;
 } 
@@ -2828,9 +2819,8 @@ a:hover {
 
 #menu a {
 	display: block;
-	
-	margin-right: 1px;
-	padding: 16px 20px 0px 20px;
+	margin-right: 4px;
+	padding: 0px 8px 0px 8px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -2842,8 +2832,8 @@ a:hover {
 }
 
 #menu a:hover, #menu .current_page_item a {
-	text-decoration: none;
-	color: #FFFFFF;
+	text-decoration: underline;
+	color: orange;
 }
 
 #menu .current_page_item a {
@@ -2851,12 +2841,18 @@ a:hover {
 
 /* Page */
 
+#primary {
+	width: 980px;
+	background: url(images/img04.jpg) no-repeat left top;
+}
+
 #page {
 	width: 980px;
 	margin: 0px auto;
 	padding: 0px 0px 0px 0px;
 	background: url(images/img06.jpg) repeat-y left top;
 }
+
 
 #page-bgtop {
 	background: url(images/img04.jpg) no-repeat left top;
@@ -2872,7 +2868,6 @@ a:hover {
 #content {
 	float: left;
 	width: 600px;
-	padding: 30px 0px 0px 0px;
 }
 
 .post {
@@ -3017,7 +3012,7 @@ a:hover {
 
 /* Footer */
 
-#footer {
+#footer, #site-generator {
 	width: 980px;
 	height: 70px;
 	margin: 0px auto 30px auto;
@@ -3061,3 +3056,7 @@ a:hover {
 }
 
 #constitution-container div strong { display: block; }
+
+.sep{
+    font-weight:bold;
+}

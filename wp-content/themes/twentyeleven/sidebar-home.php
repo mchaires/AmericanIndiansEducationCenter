@@ -13,6 +13,10 @@ $current_layout = $options['theme_layout'];
 if ( 'content' != $current_layout ) :
 ?>
 		<div id="secondary" class="widget-area" role="complementary">
+            <br>
+            <img src="./wp-content/themes/twentyeleven/images/facebook_32.png">
+            <img src="./wp-content/themes/twentyeleven/images/twitter_32.png">
+            <img src="./wp-content/themes/twentyeleven/images/paypal_donate.gif">
 			<?php if ( ! dynamic_sidebar( 'home-1' ) ) : ?>
 
 				<aside id="archives" class="widget">
